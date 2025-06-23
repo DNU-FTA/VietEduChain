@@ -157,8 +157,8 @@ Module quản lý nghiên cứu khoa học:
 #### EduAdmission
 
 Module quản lý tuyển sinh minh bạch:
-- Đăng ký tuyển sinh
-- Xác nhận kết quả
+- Đăng ký chỉ tiêu tuyển sinh 
+- Xác nhận kết quả chỉ tiêu tuyển sinh
 - Công bố điểm và kết quả tuyển sinh vào ngành học theo các nguyện vọng đăng ký.
 - Xác thực quy trình và kết quả tuyển sinh của cơ sở đào tạo.
 
