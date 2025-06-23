@@ -229,7 +229,7 @@ Module quản lý nghiên cứu khoa học:
 ### EduAdmission
 
 Module quản lý tuyển sinh theo quy định của Bộ Giáo dục và Đào tạo:
-- Đăng ký tuyển sinh
-- Xác nhận kết quả
+- Tiếp nhận đăng ký tuyển sinh của thí sinh.
+- Xác nhận kết quả đăng ký tuyển sinh của thí sinh. 
 - Công bố điểm và kết quả tuyển sinh vào ngành học theo các nguyện vọng đăng ký.
-- Xác thực quy trình và kết quả tuyển sinh của cơ sở đào tạo
+- Xác thực quy trình và kết quả tuyển sinh của cơ sở đào tạo.
