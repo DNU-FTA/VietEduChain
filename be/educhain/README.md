@@ -159,7 +159,7 @@ Module quản lý nghiên cứu khoa học:
 Module quản lý tuyển sinh minh bạch:
 - Đăng ký tuyển sinh
 - Xác nhận kết quả
-- Công bố điểm và thứ hạng
+- Công bố điểm và kết quả tuyển sinh vào ngành học theo các nguyện vọng đăng ký.
 - Xác thực quy trình tuyển sinh
 
 ### Phát triển và mở rộng
