@@ -339,7 +339,7 @@ Chúng tôi rất hoan nghênh đóng góp của bạn! Vui lòng làm theo hư�
 
 ## LIÊN HỆ HỖ TRỢ
 
-Nếu bạn gặp bất kỳ vấn đề nào khi cài đặt hoặc sử dụng EduChain, vui lòng liên hệ với đội ngũ hỗ trợ kỹ thuật của chúng tôi:
+Nếu bạn gặp bất kỳ vấn đề nào khi cài đặt hoặc sử dụng DNU-FTA-VietEduChain, vui lòng liên hệ với đội ngũ hỗ trợ kỹ thuật của chúng tôi:
 
 - **Email hỗ trợ**: support@vieteduledger.vn
 - **Kênh Discord**: [VietEduChain Discord](https://discord.gg/vieteduledger)
@@ -347,7 +347,7 @@ Nếu bạn gặp bất kỳ vấn đề nào khi cài đặt hoặc sử dụng
 
 ## LỜI CẢM ƠN
 
-Dự án VietEduChain được phát triển với sự hỗ trợ từ cộng đồng Cosmos, CosmWasm và các đối tác giáo dục Việt Nam. Chúng tôi xin chân thành cảm ơn tất cả những người đã đóng góp và hỗ trợ dự án này.
+Dự án DNU-FTA-VietEduChain được phát triển với sự hỗ trợ từ cộng đồng Cosmos, CosmWasm và các đối tác giáo dục Việt Nam. Chúng tôi xin chân thành cảm ơn tất cả những người đã đóng góp và hỗ trợ dự án này.
 
 ## CÁC MÔ-ĐUN CHỨC NĂNG
 
