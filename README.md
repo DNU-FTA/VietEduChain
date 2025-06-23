@@ -89,9 +89,9 @@ cd be/educhain/deployments/scripts
 
 Bạn có thể xem video hướng dẫn dưới đây:
 
-[![Video hướng dẫn](https://img.youtube.com/vi/McM8y8Zghsg/0.jpg)](https://youtu.be/McM8y8Zghsg)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/McM8y8Zghsg?si=x5LHMV6nTWhykCHl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Hoặc xem trực tiếp tại: [https://youtu.be/McM8y8Zghsg](https://youtu.be/McM8y8Zghsg)
+> Nếu xem trên GitHub, có thể iframe sẽ không hiển thị. Vui lòng truy cập trực tiếp: [https://youtu.be/McM8y8Zghsg](https://youtu.be/McM8y8Zghsg)
 
 5. Chạy frontend:
 
