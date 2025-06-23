@@ -85,6 +85,13 @@ cd be/educhain/deployments/scripts
 cd be/educhain/deployments/scripts
 ./deploy_educhain_contracts.sh
 ```
+### Video hướng dẫn
+
+Bạn có thể xem video hướng dẫn dưới đây:
+
+```markdown
+<video src="video/Screen Recording 2025-06-24 at 05.15.42.mov" controls width="800"></video>
+```
 
 5. Chạy frontend:
 
