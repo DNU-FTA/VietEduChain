@@ -88,7 +88,9 @@ cd be/educhain/deployments/scripts
 ### Video hướng dẫn
 Bạn có thể xem video hướng dẫn trực tiếp dưới đây:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/McM8y8Zghsg?si=e3Kpoxxm-9h2KECf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+[![Hướng dẫn DNU-FTA-VietEduChain](https://img.youtube.com/vi/McM8y8Zghsg/0.jpg)](https://youtu.be/McM8y8Zghsg)
+
+> Nhấn vào hình để xem video hướng dẫn trên YouTube.
 
 > Nếu xem trên GitHub, có thể iframe
 
