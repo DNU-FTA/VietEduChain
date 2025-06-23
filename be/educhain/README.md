@@ -160,7 +160,7 @@ Module quản lý tuyển sinh minh bạch:
 - Đăng ký tuyển sinh
 - Xác nhận kết quả
 - Công bố điểm và kết quả tuyển sinh vào ngành học theo các nguyện vọng đăng ký.
-- Xác thực quy trình tuyển sinh
+- Xác thực quy trình và kết quả tuyển sinh của cơ sở đào tạo.
 
 ### Phát triển và mở rộng
 
