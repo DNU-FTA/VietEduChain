@@ -2,13 +2,13 @@
 
 ## TỔNG QUAN
 
-VietEduChain là một dự án blockchain được xây dựng trên nền tảng Cosmos SDK, được thiết kế để hỗ trợ quy trình quản lý chất lượng đào tạo đại học tại Việt Nam thông qua các ứng dụng phi tập trung và hợp đồng thông minh. Dự án nhằm nâng cao tính minh bạch, bảo mật và hiệu quả trong các hoạt động quản lý giáo dục, bao gồm cấp bằng và chứng chỉ, quản lý danh tính (các trường đại học, cá nhân, bằng và chứng chỉ, v.v...), xử lý thanh toán, tính toàn vẹn trong nghiên cứu và minh bạch trong tuyển sinh, đào tạo.
+DUN-FTA-VietEduChain là một dự án blockchain layer 1 được xây dựng trên nền tảng Cosmos SDK, như là một giải pháp góp phần đổi mới phương thức quản lý chất lượng đào tạo đại học tại Việt Nam. Thông qua các ứng dụng phi tập trung và hợp đồng thông minh, dự án nhằm nâng cao tính minh bạch, bảo mật và hiệu quả trong các hoạt động tuyển sinh, đào tạo và quản lý chất lượng đào tạo, bao gồm cấp bằng và chứng chỉ, quản lý danh tính (các trường đại học, cá nhân, bằng và chứng chỉ, v.v...), xử lý thanh toán, đảm bảo tính toàn vẹn trong nghiên cứu khoa học và sự minh bạch trong các hoạt động tuyển sinh, đào tạo cũng như đảm bảo sự tuân thủ của các trường đại học đối với mọi quy định của Bộ Giáo dục và Đào tạo Việt Nam.
 
 ## MỤC TIÊU VÀ PHẠM VI DỰ ÁN
 
 ### Mục tiêu tổng quát
 
-1. Xây dựng VietEduChain Layer-1 chuyên biệt cho giáo dục đại học của Việt Nam, đáp ứng đồng thời ba trụ cột: (1) Hiệu năng cấp hạ tầng; (2) thông lượng ≥ 30.000 giao dịch/giây; (3) thời gian hoàn tất ("finality") ≈ 1,2 giây; phí giao dịch < 0,1% giá trị.
+1. Xây dựng DNU-FTA-VietEduChain Layer-1 chuyên biệt cho giáo dục đại học của Việt Nam, đáp ứng đồng thời ba trụ cột: (1) Hiệu năng cấp hạ tầng; (2) thông lượng ≥ 30.000 giao dịch/giây; (3) thời gian hoàn tất ("finality") ≈ 1,2 giây; phí giao dịch < 0,1% giá trị.
 2. Chuẩn dữ liệu quốc tế: hỗ trợ đầy đủ Verifiable Credential (VC) và Decentralized Identifier (DID) theo khuyến nghị W3C; sẵn sàng liên thông qua Inter-Blockchain Communication (IBC).
 3. Phục vụ trọn chu trình đào tạo: từ tuyển sinh, quản lý học phí, quá trình đào tạo, cấp phát văn bằng, đến lưu vết nghiên cứu khoa học – bảo đảm minh bạch, an toàn dữ liệu và khả năng mở rộng, phát triển lâu dài.
 
