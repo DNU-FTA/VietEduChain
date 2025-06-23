@@ -89,9 +89,7 @@ cd be/educhain/deployments/scripts
 
 Bạn có thể xem video hướng dẫn dưới đây:
 
-<iframe width="800" height="450" src="https://www.youtube.com/embed/McM8y8Zghsg" frameborder="0" allowfullscreen></iframe>
-
-> Nếu xem trên GitHub, có thể iframe sẽ không hiển thị. Vui lòng truy cập trực tiếp: [https://youtu.be/McM8y8Zghsg](https://youtu.be/McM8y8Zghsg)
+[![Video hướng dẫn](https://img.youtube.com/vi/McM8y8Zghsg/0.jpg)](https://youtu.be/McM8y8Zghsg)
 
 Hoặc xem trực tiếp tại: [https://youtu.be/McM8y8Zghsg](https://youtu.be/McM8y8Zghsg)
 
