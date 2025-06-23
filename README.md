@@ -89,9 +89,11 @@ cd be/educhain/deployments/scripts
 
 Bạn có thể xem video hướng dẫn dưới đây:
 
-```markdown
-<video src="video/Screen Recording 2025-06-24 at 05.15.42.mov" controls width="800"></video>
-```
+<iframe width="800" height="450" src="https://www.youtube.com/embed/McM8y8Zghsg" frameborder="0" allowfullscreen></iframe>
+
+> Nếu xem trên GitHub, có thể iframe sẽ không hiển thị. Vui lòng truy cập trực tiếp: [https://youtu.be/McM8y8Zghsg](https://youtu.be/McM8y8Zghsg)
+
+Hoặc xem trực tiếp tại: [https://youtu.be/McM8y8Zghsg](https://youtu.be/McM8y8Zghsg)
 
 5. Chạy frontend:
 
