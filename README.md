@@ -211,6 +211,10 @@ Module quản lý tuyển sinh theo quy định của Bộ Giáo dục và Đào
 - Công bố điểm và kết quả tuyển sinh vào ngành học theo các nguyện vọng đăng ký.
 - Xác thực quy trình và kết quả tuyển sinh của cơ sở đào tạo.
 
+### Ảnh minh họa
+
+![Ảnh minh họa hệ thống DNU-FTA-VietEduChain](screenshot/eduadmision.png)
+
 ### EduPay
 
 Module thanh toán học phí và học bổng:
