@@ -214,6 +214,9 @@ Module quản lý tuyển sinh theo quy định của Bộ Giáo dục và Đào
 ### Ảnh minh họa
 
 ![Ảnh minh họa hệ thống DNU-FTA-VietEduChain](screenshot/eduadmision.png)
+![Ảnh minh họa thêm mới chỉ tiêu tuyển sinh](screenshot/eduaddmissionquota.png)
+
+Ảnh trên minh họa giao diện thêm mới chỉ tiêu tuyển sinh cho một cơ sở đào tạo. Người dùng có thể nhập thông tin về ngành học, số lượng chỉ tiêu, năm tuyển sinh và các tiêu chí liên quan. Giao diện này giúp đảm bảo quy trình đăng ký chỉ tiêu minh bạch, dễ kiểm soát và tuân thủ quy định của Bộ Giáo dục và Đào tạo.
 
 ### EduPay
 
