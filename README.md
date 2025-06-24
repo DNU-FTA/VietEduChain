@@ -17,7 +17,7 @@ DUN-FTA-VietEduChain là một dự án blockchain layer 1 được xây dựng 
 ### Backend (BE)
 
 - **Lớp Core**: Xây dựng trên đồng thuận HotStuff, DAG mempool và CosmWasm để đảm bảo khả năng mở rộng và hiệu suất.
-- **Module Chức Năng**: Bao gồm EduCert, EduID, EduPay, ResearchLedger và EduAdmission để phục vụ các quy trình khác nhau trong chu trình đào tạo của các trường.
+- **Module Chức Năng**: Bao gồm EduAdmission, EduPay, EduStudy, EduCert, ReserchLedger and EduID để phục vụ các quy trình khác nhau trong chu trình đào tạo của các trường.
 - **API & SDK**: REST/gRPC và GraphQL API, cùng với JS/Flutter SDK để dễ dàng tích hợp.
 - **Khả Năng Tương Tác**: IBC relay và khả năng cross-chain để kết nối với các blockchain khác.
 - **Công Cụ Giám Sát**: Prometheus và Grafana để minh bạch dữ liệu thời gian thực và theo dõi KPI.
@@ -37,8 +37,8 @@ DUN-FTA-VietEduChain là một dự án blockchain layer 1 được xây dựng 
 Dự án bao gồm các hợp đồng thông minh sau:
 
 1. **EduAdmission**: Quản lý quá trình tuyển sinh của các cơ sở đào tạo, giám sát việc thực hiện chỉ tiêu và đảm bảo tiêu chuẩn tuyển sinh.
-2. **EduStudy**: Quản lý quá trình học tập và rèn luyện của sinh viên, đảm bảo sinh viên hoàn thành chương trình đào tạo, đánh giá kết quả học tập và sự tham gia các hoạt động của sinh viên trong quá trình đào tạo.
-3. **EduPay**: Quản lý việc đăng ký học tập và thanh toán học phí của sinh viên cho cơ sở đào tạo.
+2. **EduPay**: Quản lý việc đăng ký học tập và thanh toán học phí của sinh viên cho cơ sở đào tạo.
+3. **EduStudy**: Quản lý quá trình học tập và rèn luyện của sinh viên, đảm bảo sinh viên hoàn thành chương trình đào tạo, đánh giá kết quả học tập và sự tham gia các hoạt động của sinh viên trong quá trình đào tạo.
 4. **EduCert**: Quản lý văn bằng tốt nghiệp và chứng chỉ: xử lý việc cấp, xác minh và thu hồi bằng tốt nghiệp cũng như đối với chứng chỉ các khóa đào tạo ngắn hạn.
 5. **ResearchLedger**: Ghi chép và xác minh đóng góp nghiên cứu khoa học và xuất bản, chống đạo văn.
 6. **EduID**: Xác minh danh tính dựa trên hệ thống nhận dạng phi tập trung (DID) cho ngữ cảnh đào tạo.
@@ -137,12 +137,13 @@ cd be/educhain/deployments/scripts
 
 ```bash
 # Địa chỉ contract sẽ được lưu trong các file sau khi deploy
-cat be/educhain/deployments/devnet/data/educert_address.txt
-cat be/educhain/deployments/devnet/data/edupay_address.txt
-cat be/educhain/deployments/devnet/data/eduid_address.txt
-cat be/educhain/deployments/devnet/data/researchledger_address.txt
 cat be/educhain/deployments/devnet/data/eduadmission_address.txt
-```
+cat be/educhain/deployments/devnet/data/edupay_address.txt
+cat be/educhain/deployments/devnet/data/edustudy_address.txt
+cat be/educhain/deployments/devnet/data/educert_address.txt
+cat be/educhain/deployments/devnet/data/researchledger_address.txt
+cat be/educhain/deployments/devnet/data/eduid_address.txt
+
 
 6. Cấu hình và khởi chạy frontend:
 
@@ -168,11 +169,12 @@ cd be/educhain/deployments/scripts
 
 Kích thước contract đã biên dịch hiện tại:
 
-- **educert**: 226,859 bytes
-- **edupay**: 149,759 bytes
-- **eduid**: 155,441 bytes
-- **researchledger**: 158,669 bytes
 - **eduadmission**: 165,948 bytes
+- **eduPay**: 149,759 bytes
+- **EduStudy**: ??? bytes
+- **eduCert**: 226,859 bytes
+- **researchledger**: 158,669 bytes
+- **eduid**: 155,441 bytes
 
 ## XỬ LÝ SỰ CỐ
 
@@ -193,7 +195,7 @@ npm run dev
 
 ## CÁC Ý KIẾN ĐÓNG GÓP HOÀN THIỆN
 
-Chúng tôi hoan nghênh những ý kiến đóng góp bổ sung và hoàn thiện! Vui lòng gửi pull request hoặc mở issue cho bất kỳ sự hoàn thiện, nâng cấp hoặc sửa lỗi.
+Chúng tôi hoan nghênh tất cả những ý kiến đóng góp bổ sung và hoàn thiện! Vui lòng gửi pull request hoặc mở issue cho bất kỳ sự hoàn thiện, nâng cấp hoặc sửa lỗi.
 
 ## GIẤY PHÉP
 
@@ -201,13 +203,29 @@ Dự án này được cấp phép theo Giấy phép MIT. Xem file LICENSE để
 
 ## CHI TIẾT CÁC MODULE
 
-### EduID
+### EduAdmission
 
-Module quản lý danh tính dựa trên DID (Decentralized Identifiers), cho phép:
-- Tạo danh tính số mới
-- Truy vấn thông tin danh tính
-- Cập nhật thông tin danh tính
-- Xác thực danh tính
+Module quản lý tuyển sinh theo quy định của Bộ Giáo dục và Đào tạo:
+- Đăng ký chỉ tiêu tuyển sinh của cơ sở đào tạo.
+- Xác nhận kết quả đăng ký chỉ tiêu tuyển sinh của cơ sở đào tạo. 
+- Công bố điểm và kết quả tuyển sinh vào ngành học theo các nguyện vọng đăng ký.
+- Xác thực quy trình và kết quả tuyển sinh của cơ sở đào tạo.
+
+### EduPay
+
+Module thanh toán học phí và học bổng:
+- Tạo escrow thanh toán học phí
+- Xác nhận đăng ký học
+- Xác nhận nộp học phí cho trường
+- Quản lý thực hiện chính sách học bổng, khuyến khích học tập
+
+
+### EduStudy
+
+Module quản lý quá trình học tập và rèn luyện của sinh viên:
+- Đánh giá quá trình học tập và kết quả học tập của sinh viên
+- Đánh giá sự hoàn thành chương trình đào tạo theo ngành và chuyên ngành
+- Đáng giá kết quả rèn luyện và tham gia các hoạt động ngoại khóa của sinh viên
 
 ### EduCert
 
@@ -217,14 +235,6 @@ Module quản lý văn bằng điện tử, hỗ trợ:
 - Chia sẻ văn bằng với bên thứ ba
 - Kiểm tra lịch sử thay đổi
 
-### EduPay
-
-Module thanh toán học phí và học bổng:
-- Tạo escrow thanh toán học phí
-- Xác nhận đăng ký học
-- Giải ngân học phí cho trường
-- Quản lý học bổng
-
 ### ResearchLedger
 
 Module quản lý nghiên cứu khoa học:
@@ -233,10 +243,12 @@ Module quản lý nghiên cứu khoa học:
 - Kiểm tra trùng lặp và đạo văn
 - Quản lý quyền sở hữu trí tuệ
 
-### EduAdmission
+### EduID
 
-Module quản lý tuyển sinh theo quy định của Bộ Giáo dục và Đào tạo:
-- Đăng ký chỉ tiêu tuyển sinh của cơ sở đào tạo.
-- Xác nhận kết quả đăng ký chỉ tiêu tuyển sinh của cơ sở đào tạo. 
-- Công bố điểm và kết quả tuyển sinh vào ngành học theo các nguyện vọng đăng ký.
-- Xác thực quy trình và kết quả tuyển sinh của cơ sở đào tạo.
+Module quản lý danh tính dựa trên DID (Decentralized Identifiers), cho phép:
+- Tạo danh tính số mới
+- Truy vấn thông tin danh tính
+- Cập nhật thông tin danh tính
+- Xác thực danh tính
+
+
