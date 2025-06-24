@@ -10,7 +10,7 @@ DUN-FTA-VietEduChain là một dự án blockchain layer 1 được xây dựng 
 
 1. Xây dựng DNU-FTA-VietEduChain Layer-1 chuyên biệt cho giáo dục đại học của Việt Nam, đáp ứng đồng thời ba trụ cột: (1) Hiệu năng cấp hạ tầng; (2) thông lượng ≥ 30.000 giao dịch/giây; (3) thời gian hoàn tất ("finality") ≈ 1,2 giây; phí giao dịch < 0,1% giá trị.
 2. Chuẩn dữ liệu quốc tế: hỗ trợ đầy đủ Verifiable Credential (VC) và Decentralized Identifier (DID) theo khuyến nghị W3C; sẵn sàng liên thông qua Inter-Blockchain Communication (IBC).
-3. Phục vụ trọn chu trình đào tạo: từ tuyển sinh, quản lý học phí, quá trình đào tạo, cấp phát văn bằng, đến lưu vết nghiên cứu khoa học – bảo đảm minh bạch, an toàn dữ liệu và khả năng mở rộng, phát triển lâu dài.
+3. Phục vụ trọn chu trình đào tạo: từ tuyển sinh, đăng ký học tập và quá trình đào tạo, nộp học phí, cấp phát văn bằng, đến lưu vết nghiên cứu khoa học để bảo đảm sự minh bạch, an toàn dữ liệu và khả năng mở rộng, phát triển lâu dài.
 
 ## TÍNH NĂNG
 
@@ -36,15 +36,12 @@ DUN-FTA-VietEduChain là một dự án blockchain layer 1 được xây dựng 
 
 Dự án bao gồm các hợp đồng thông minh sau:
 
-1. **EduCert**: Quản lý văn bằng tốt nghiệp và chứng chỉ: xử lý việc cấp, xác minh và thu hồi bằng tốt nghiệp cũng như đối với chứng chỉ các khóa đào tạo ngắn hạn.
-
-2. **EduPay**: Xử lý thanh toán học phí an toàn giữa các cơ sở đào tạo và sinh viên.
-
-3. **EduID**: Xác minh danh tính dựa trên hệ thống nhận dạng phi tập trung (DID) cho ngữ cảnh đào tạo.
-
-4. **ResearchLedger**: Ghi chép và xác minh đóng góp nghiên cứu khoa học và xuất bản, chống đạo văn.
-
-5. **EduAdmission**: Quản lý quá trình tuyển sinh của các cơ sở đào tạo và tiêu chuẩn của thí sinh.
+1. **EduAdmission**: Quản lý quá trình tuyển sinh của các cơ sở đào tạo, giám sát việc thực hiện chỉ tiêu và đảm bảo tiêu chuẩn tuyển sinh.
+2. **EduStudy**: Quản lý quá trình học tập và rèn luyện của sinh viên, đảm bảo sinh viên hoàn thành chương trình đào tạo, đánh giá kết quả học tập và sự tham gia các hoạt động của sinh viên trong quá trình đào tạo.
+3. **EduPay**: Quản lý việc đăng ký học tập và thanh toán học phí của sinh viên cho cơ sở đào tạo.
+4. **EduCert**: Quản lý văn bằng tốt nghiệp và chứng chỉ: xử lý việc cấp, xác minh và thu hồi bằng tốt nghiệp cũng như đối với chứng chỉ các khóa đào tạo ngắn hạn.
+5. **ResearchLedger**: Ghi chép và xác minh đóng góp nghiên cứu khoa học và xuất bản, chống đạo văn.
+6. **EduID**: Xác minh danh tính dựa trên hệ thống nhận dạng phi tập trung (DID) cho ngữ cảnh đào tạo.
 
 ## BẮT ĐẦU
 
