@@ -255,6 +255,12 @@ Module quản lý danh tính dựa trên DID (Decentralized Identifiers), cho ph
 - Cập nhật thông tin danh tính
 - Xác thực danh tính
 
-### Ảnh minh họa thêm mới EduID
+#### Ảnh minh họa thêm mới EduID
 
 ![Ảnh minh họa thêm mới EduID](screenshot/eduid_add.png)
+
+#### Ảnh minh họa danh sách EduID
+
+![Ảnh minh họa danh sách EduID](screenshot/eduid_list.png)
+
+Ảnh trên minh họa giao diện danh sách các danh tính số (EduID) đã được tạo trên hệ thống. Mỗi mục trong danh sách thể hiện thông tin cơ bản của một EduID như mã định danh, tên chủ sở hữu, trạng thái xác thực và các thao tác quản lý (xem chi tiết, chỉnh sửa, xác thực hoặc thu hồi). Giao diện này giúp quản trị viên hoặc người dùng dễ dàng tra cứu, kiểm tra và quản lý các danh tính số trong môi trường giáo dục đại học, đảm bảo tính minh bạch và an toàn dữ liệu cá nhân.
