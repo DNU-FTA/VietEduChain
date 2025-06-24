@@ -255,4 +255,6 @@ Module quản lý danh tính dựa trên DID (Decentralized Identifiers), cho ph
 - Cập nhật thông tin danh tính
 - Xác thực danh tính
 
+### Ảnh minh họa thêm mới EduID
 
+![Ảnh minh họa thêm mới EduID](screenshot/eduid_add.png)
