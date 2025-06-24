@@ -2,7 +2,7 @@
 
 ## TỔNG QUAN
 
-DUN-FTA-VietEduChain là một dự án blockchain layer 1 được xây dựng trên nền tảng Cosmos SDK, như là một giải pháp góp phần đổi mới phương thức quản lý chất lượng đào tạo đại học, giảm thiểu quy trình và thủ tục hành chính liên quan tại Việt Nam. Thông qua các ứng dụng phi tập trung và hợp đồng thông minh, dự án nhằm nâng cao tính minh bạch, bảo mật và hiệu quả trong các hoạt động tuyển sinh, đào tạo và quản lý chất lượng đào tạo, bao gồm cấp bằng và chứng chỉ, quản lý danh tính (các trường đại học, cá nhân, bằng và chứng chỉ, v.v...), xử lý thanh toán, đảm bảo tính toàn vẹn trong nghiên cứu khoa học và sự minh bạch trong các hoạt động tuyển sinh, đào tạo cũng như đảm bảo sự tuân thủ của các trường đại học đối với mọi quy định của Bộ Giáo dục và Đào tạo Việt Nam.
+DUN-FTA-VietEduChain là một dự án blockchain layer 1 được xây dựng trên nền tảng Cosmos SDK, như là một giải pháp góp phần đổi mới phương thức quản lý chất lượng đào tạo đại học, giảm thiểu quy trình và thủ tục hành chính liên quan đến việc cấp và xác nhận bằng cấp, chứng chỉ tại Việt Nam. Thông qua các ứng dụng phi tập trung và hợp đồng thông minh, dự án nhằm nâng cao tính minh bạch, bảo mật và hiệu quả trong các hoạt động tuyển sinh, đào tạo và quản lý chất lượng đào tạo, bao gồm cấp bằng và chứng chỉ, quản lý danh tính (các trường đại học, chương trình đào tạo, các cá nhân (cán bộ, giảng viên và sinh viên), bằng và chứng chỉ, v.v...), xử lý thanh toán, đảm bảo tính toàn vẹn và liêm chính trong nghiên cứu khoa học, sự minh bạch và tuân thủ của các trường đại học đối với các quy định của Bộ Giáo dục và Đào tạo Việt Nam như quy chế tuyển sinh và đào tạo, cũng như các quy định về đảm bảo cơ sở vật chất phục vụ quá trình đào tạo.
 
 ## MỤC TIÊU VÀ PHẠM VI DỰ ÁN
 
