@@ -100,6 +100,47 @@ cd fe
 npm install
 npm run dev
 ```
+### Video minh hoạ
+
+Bạn có thể xem video minh hoạ dưới đây:
+
+<div align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/1jZpKambk9w" title="Video minh hoạ DNU-FTA-VietEduChain" frameborder="0" allowfullscreen></iframe>
+</div>
+
+> Nếu iframe không hiển thị trên GitHub, vui lòng truy cập trực tiếp: [https://youtu.be/1jZpKambk9w](https://youtu.be/1jZpKambk9w)
+#### Giải thích các bước cài đặt backend (BE) như trong video
+
+Quy trình cài đặt backend của VietEduChain sử dụng Docker để đảm bảo môi trường nhất quán, dễ triển khai và dễ bảo trì. Dưới đây là giải thích ý nghĩa từng bước chính:
+
+1. **Build Docker image cho backend**
+   - Sử dụng lệnh `docker build` để tạo một image chứa đầy đủ môi trường chạy node blockchain (wasmd), các thư viện cần thiết, và các công cụ hỗ trợ như FastAPI, MinIO client.
+   - Dockerfile sẽ thực hiện các thao tác như: cài đặt Go, build binary wasmd, cài các thư viện hệ thống, copy file cấu hình, và thiết lập các biến môi trường mặc định.
+
+2. **Chạy container backend**
+   - Lệnh `docker run` sẽ khởi tạo một container từ image vừa build, đồng thời map các port cần thiết (26657 cho RPC, 1317 cho REST, 1318 cho FastAPI custom API).
+   - Volume dữ liệu được mount để lưu trữ trạng thái blockchain và các file cấu hình, giúp dữ liệu không bị mất khi container dừng.
+   - Các biến môi trường như `DAEMON_HOME`, `CHAIN_ID`... giúp tùy biến cấu hình chain khi khởi động.
+   - Container sẽ chạy script `enhanced_start_v124 copy.sh` để tự động:
+     - Kiểm tra/cài đặt các thư viện cần thiết
+     - Khởi tạo chain mới nếu chưa có dữ liệu (tạo validator, genesis, cấu hình gas, CORS, Prometheus...)
+     - Khởi động node wasmd và FastAPI custom API
+     - Đảm bảo MinIO bucket phục vụ lưu trữ dữ liệu phi tập trung
+     - Theo dõi và tự động restart FastAPI nếu bị lỗi
+
+3. **Kiểm tra log node và FastAPI**
+   - Có thể xem log node blockchain bằng lệnh `docker logs -f vieteduchain-be`.
+   - Có thể kiểm tra log FastAPI bằng lệnh `docker exec -it vieteduchain-be tail -f /var/log/fastapi.log` để theo dõi trạng thái API custom.
+
+4. **Kiểm tra API health**
+   - Sử dụng lệnh `curl http://localhost:1318/api/v1/health` để xác nhận FastAPI đã sẵn sàng phục vụ request.
+
+**Ý nghĩa tổng thể:**
+- Toàn bộ quy trình giúp bạn triển khai backend blockchain một cách tự động, nhất quán, không phụ thuộc vào môi trường máy chủ vật lý.
+- Docker hóa backend giúp dễ dàng nâng cấp, backup, khôi phục và mở rộng hệ thống.
+- Script khởi động thông minh giúp phát hiện lỗi, tự động khởi tạo lại các thành phần cần thiết, đảm bảo hệ thống luôn sẵn sàng hoạt động.
+
+> Nếu bạn muốn tùy biến thêm (ví dụ: thay đổi port, thêm contract, cấu hình MinIO...), chỉ cần chỉnh sửa biến môi trường hoặc các file cấu hình trước khi build/run Docker.
 
 ### Triển khai lên server
 
