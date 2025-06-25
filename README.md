@@ -210,12 +210,12 @@ cd be/educhain/deployments/scripts
 
 Kích thước contract đã biên dịch hiện tại:
 
-- **eduadmission**: 165,948 bytes
-- **eduPay**: 149,759 bytes
-- **EduStudy**: ??? bytes
-- **eduCert**: 226,859 bytes
-- **researchledger**: 158,669 bytes
-- **eduid**: 155,441 bytes
+- **eduadmission**: 2,092,628 bytes
+- **eduPay**: 2,052,265 bytes
+- **EduStudy**: 2,158,206 bytes
+- **eduCert**: 2,158,206 bytes
+- **researchledger**: 2,073,345 bytes
+- **eduid**: 2,200,672 bytes
 
 ## XỬ LÝ SỰ CỐ
 
