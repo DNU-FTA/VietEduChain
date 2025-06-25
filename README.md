@@ -233,7 +233,19 @@ Module quản lý quá trình học tập và rèn luyện của sinh viên:
 - Đánh giá quá trình học tập và kết quả học tập của sinh viên
 - Đánh giá sự hoàn thành chương trình đào tạo theo ngành và chuyên ngành
 - Đáng giá kết quả rèn luyện và tham gia các hoạt động ngoại khóa của sinh viên
+#### Ảnh minh họa EduStudy
 
+![Ảnh minh họa quá trình học tập sinh viên](screenshot/edustudy.png)
+
+Ảnh trên minh họa giao diện quản lý quá trình học tập của sinh viên, bao gồm thông tin về các môn học đã đăng ký, điểm số, trạng thái hoàn thành và các hoạt động ngoại khóa. Giao diện này giúp nhà trường và sinh viên theo dõi tiến độ học tập, đánh giá kết quả và đảm bảo sinh viên đáp ứng các yêu cầu tốt nghiệp.
+
+#### Script thuyết minh ảnh minh họa
+
+```markdown
+![Ảnh minh họa quá trình học tập sinh viên](screenshot/edustudy.png)
+
+Giao diện EduStudy cho phép theo dõi chi tiết tiến trình học tập của từng sinh viên. Người dùng có thể xem danh sách môn học, điểm số từng học phần, trạng thái hoàn thành và các hoạt động ngoại khóa đã tham gia. Tính năng này hỗ trợ nhà trường trong việc đánh giá kết quả học tập, đồng thời giúp sinh viên chủ động kiểm soát lộ trình đào tạo của mình.
+```
 ### EduCert
 
 Module quản lý văn bằng điện tử, hỗ trợ:
