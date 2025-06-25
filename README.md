@@ -314,7 +314,19 @@ Module quản lý nghiên cứu khoa học:
 - Lưu trữ hash của tài liệu nghiên cứu
 - Kiểm tra trùng lặp và đạo văn
 - Quản lý quyền sở hữu trí tuệ
+#### Ảnh minh họa ResearchLedger
 
+![Ảnh minh họa ResearchLedger - Giao diện đăng ký nghiên cứu mới](video/ResearchLedger2.png)
+![Ảnh minh họa ResearchLedger - Danh sách nghiên cứu khoa học](video/ResearchLedger1.png)
+
+#### Script thuyết minh ảnh minh họa
+
+```markdown
+![Ảnh minh họa ResearchLedger - Giao diện đăng ký nghiên cứu mới](video/ResearchLedger2.png)
+![Ảnh minh họa ResearchLedger - Danh sách nghiên cứu khoa học](video/ResearchLedger1.png)
+
+Hai ảnh trên minh họa các chức năng chính của module ResearchLedger. Ảnh đầu tiên thể hiện giao diện đăng ký nghiên cứu mới, nơi người dùng nhập thông tin đề tài, tác giả, mô tả và tải lên tài liệu liên quan. Ảnh thứ hai là danh sách các nghiên cứu đã đăng ký, hiển thị trạng thái xác minh, hash tài liệu và các thao tác kiểm tra trùng lặp, xác thực quyền sở hữu trí tuệ. Giao diện trực quan giúp nhà trường và giảng viên dễ dàng quản lý, xác minh và bảo vệ quyền lợi nghiên cứu khoa học.
+```
 ### EduID
 
 Module quản lý danh tính dựa trên DID (Decentralized Identifiers), cho phép:
