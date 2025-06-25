@@ -26,7 +26,7 @@ DUN-FTA-VietEduChain là một dự án blockchain layer 1 được xây dựng 
 ### Frontend (FE)
 
 - **Giao diện người dùng hiện đại**: Xây dựng trên React và Next.js với thiết kế đáp ứng cho các thiết bị khác nhau.
-- **Các module tương tác**: Giao diện người dùng cho tất cả các module blockchain (EduID, EduCert, EduPay, ResearchLedger, EduAdmission).
+- **Các module tương tác**: Giao diện người dùng cho tất cả các module blockchain (EduAdmission, EduPay, EduStudy, EduCert, ResearchLedger, EduID).
 - **Tích hợp API**: Tương tác với backend thông qua các API RESTful được chuẩn hóa theo Cosmos SDK.
 - **Xác thực và phân quyền**: Hỗ trợ đăng nhập, quản lý phiên và phân quyền người dùng.
 - **Quản lý trạng thái**: Sử dụng React Context và các provider để quản lý trạng thái ứng dụng.
@@ -38,10 +38,10 @@ Dự án bao gồm các hợp đồng thông minh sau:
 
 1. **EduAdmission**: Quản lý quá trình tuyển sinh của các cơ sở đào tạo, giám sát việc thực hiện chỉ tiêu và đảm bảo tiêu chuẩn tuyển sinh.
 2. **EduPay**: Quản lý việc đăng ký học tập và thanh toán học phí của sinh viên cho cơ sở đào tạo.
-3. **EduStudy**: Quản lý quá trình học tập và rèn luyện của sinh viên, đảm bảo sinh viên hoàn thành chương trình đào tạo, đánh giá kết quả học tập và sự tham gia các hoạt động của sinh viên trong quá trình đào tạo.
+3. **EduStudy**: Quản lý quá trình học tập và rèn luyện của sinh viên, đảm bảo sinh viên hoàn thành chương trình đào tạo, đánh giá kết quả học tập và sự tham gia các hoạt động ngoại khóa của sinh viên trong quá trình đào tạo tại trường đại học.
 4. **EduCert**: Quản lý văn bằng tốt nghiệp và chứng chỉ: xử lý việc cấp, xác minh và thu hồi bằng tốt nghiệp cũng như đối với chứng chỉ các khóa đào tạo ngắn hạn.
-5. **ResearchLedger**: Ghi chép và xác minh đóng góp nghiên cứu khoa học và xuất bản, chống đạo văn.
-6. **EduID**: Xác minh danh tính dựa trên hệ thống nhận dạng phi tập trung (DID) cho ngữ cảnh đào tạo.
+5. **ResearchLedger**: Ghi chép và xác minh những đóng góp nghiên cứu khoa học và xuất bản của cán bộ, giảng viên và sinh viên, góp phần đảm bảo tính liêm chính trong hoạt động nghiên cứu khoa học và công nghệ.
+6. **EduID**: Xác minh danh tính của trường đại học và các chủ thể, văn bằng, chứng chỉ, tài nguyên trí tuệ, v.v... dựa trên hệ thống nhận dạng phi tập trung (DID) hỗ trợ quá trình quản lý, giám sát và tiết kiệm chi phí, thủ tục hành chính liên quan đến xác nhận, đồng thười giảm thiểu sự giả mạo về kết quả đào tạo.
 
 ## BẮT ĐẦU
 
