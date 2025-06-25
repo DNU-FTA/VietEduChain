@@ -104,9 +104,9 @@ npm run dev
 
 Bạn có thể xem video minh hoạ dưới đây:
 
-<div align="center">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/1jZpKambk9w" title="Video minh hoạ DNU-FTA-VietEduChain" frameborder="0" allowfullscreen></iframe>
-</div>
+[![Video minh hoạ DNU-FTA-VietEduChain](https://img.youtube.com/vi/1jZpKambk9w/0.jpg)](https://youtu.be/1jZpKambk9w)
+
+> Nhấn vào hình để xem video minh hoạ trên YouTube.
 
 > Nếu iframe không hiển thị trên GitHub, vui lòng truy cập trực tiếp: [https://youtu.be/1jZpKambk9w](https://youtu.be/1jZpKambk9w)
 #### Giải thích các bước cài đặt backend (BE) như trong video
