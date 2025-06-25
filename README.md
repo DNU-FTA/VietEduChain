@@ -225,7 +225,19 @@ Module thanh toán học phí và học bổng:
 - Xác nhận đăng ký học
 - Xác nhận nộp học phí cho trường
 - Quản lý thực hiện chính sách học bổng, khuyến khích học tập
+#### Video minh họa EduPay
 
+[![Video minh họa EduPay](https://img.youtube.com/vi/iBvNH9J4DqQ/0.jpg)](https://youtu.be/iBvNH9J4DqQ)
+
+> Nhấn vào hình để xem video minh họa quy trình thanh toán học phí và học bổng trên YouTube.
+
+#### Script thuyết minh video minh họa
+
+```markdown
+[![Video minh họa EduPay](https://img.youtube.com/vi/iBvNH9J4DqQ/0.jpg)](https://youtu.be/iBvNH9J4DqQ)
+
+Video này trình bày quy trình sử dụng module EduPay để tạo escrow thanh toán học phí, xác nhận đăng ký học và nộp học phí cho trường. Người dùng có thể theo dõi từng bước thực hiện giao dịch, kiểm tra trạng thái thanh toán, xác nhận nhận học bổng hoặc các khoản hỗ trợ tài chính. Ngoài ra, video cũng minh họa cách kiểm tra số dư ví của sinh viên trước khi thực hiện giao dịch và thao tác mint token vào ví để đảm bảo đủ số dư cho việc thanh toán. Giao diện trực quan giúp sinh viên và nhà trường dễ dàng quản lý các khoản thu chi, đảm bảo minh bạch và an toàn trong quá trình thanh toán.
+```
 
 ### EduStudy
 
