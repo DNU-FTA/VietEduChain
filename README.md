@@ -306,7 +306,19 @@ Module quản lý văn bằng điện tử, hỗ trợ:
 - Xác minh tính chính xác của văn bằng
 - Chia sẻ văn bằng với bên thứ ba
 - Kiểm tra lịch sử thay đổi
+#### Ảnh minh họa EduCert
 
+![Ảnh minh họa cấp văn bằng điện tử](screenshot/cert1.png)
+![Ảnh minh họa danh sách văn bằng điện tử](screenshot/cert2.png)
+
+#### Script thuyết minh ảnh minh họa
+
+```markdown
+![Ảnh minh họa cấp văn bằng điện tử](screenshot/cert1.png)
+![Ảnh minh họa danh sách văn bằng điện tử](screenshot/cert2.png)
+
+Hai ảnh trên minh họa các chức năng chính của module EduCert. Ảnh đầu tiên thể hiện giao diện cấp văn bằng điện tử mới, nơi cán bộ quản lý nhập thông tin sinh viên, loại văn bằng, ngày cấp và các thông tin liên quan. Ảnh thứ hai là giao diện danh sách các văn bằng đã được cấp, cho phép tra cứu, xác minh, chia sẻ hoặc kiểm tra lịch sử thay đổi của từng văn bằng. Giao diện trực quan giúp đảm bảo quy trình cấp phát và xác thực văn bằng minh bạch, chính xác và dễ dàng kiểm soát.
+```
 ### ResearchLedger
 
 Module quản lý nghiên cứu khoa học:
