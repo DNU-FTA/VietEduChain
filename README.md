@@ -10,7 +10,7 @@ DUN-FTA-VietEduChain là một dự án blockchain layer 1 được xây dựng 
 
 1. Xây dựng DNU-FTA-VietEduChain Layer-1 chuyên biệt cho giáo dục đại học của Việt Nam, đáp ứng đồng thời ba trụ cột: (1) Hiệu năng cấp hạ tầng; (2) thông lượng ≥ 30.000 giao dịch/giây; (3) thời gian hoàn tất ("finality") ≈ 1,2 giây; phí giao dịch < 0,1% giá trị.
 2. Chuẩn dữ liệu quốc tế: hỗ trợ đầy đủ Verifiable Credential (VC) và Decentralized Identifier (DID) theo khuyến nghị W3C; sẵn sàng liên thông qua Inter-Blockchain Communication (IBC).
-3. Phục vụ trọn chu trình đào tạo: từ tuyển sinh, đăng ký học tập và quá trình đào tạo, nộp học phí, cấp phát văn bằng, đến lưu vết nghiên cứu khoa học để bảo đảm sự minh bạch, an toàn dữ liệu và khả năng mở rộng, phát triển lâu dài.
+3. Hõ trợ quản lý và giám sát toàn bộ chu trình đào tạo từ tuyển sinh, đăng ký học tập và quá trình đào tạo, nộp học phí, cấp văn bằng chứng chỉ, đến lưu vết hoạt động nghiên cứu khoa học để bảo đảm sự tuân thủ các quy định về đào tạo, minh bạch, an toàn dữ liệu và khả năng mở rộng, phát triển trong dài hạn.
 
 ## TÍNH NĂNG
 
