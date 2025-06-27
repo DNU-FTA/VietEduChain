@@ -356,3 +356,34 @@ Module quản lý danh tính dựa trên DID (Decentralized Identifiers), cho ph
 ![Ảnh minh họa danh sách EduID](screenshot/eduid_list.png)
 
 Ảnh trên minh họa giao diện danh sách các danh tính số (EduID) đã được tạo trên hệ thống. Mỗi mục trong danh sách thể hiện thông tin cơ bản của một EduID như mã định danh, tên chủ sở hữu, trạng thái xác thực và các thao tác quản lý (xem chi tiết, chỉnh sửa, xác thực hoặc thu hồi). Giao diện này giúp quản trị viên hoặc người dùng dễ dàng tra cứu, kiểm tra và quản lý các danh tính số trong môi trường giáo dục đại học, đảm bảo tính minh bạch và an toàn dữ liệu cá nhân.
+
+## hạn chế trong Layer 1 của VietEduChain
+
+### 1. Hạn chế về môi trường triển khai
+- Hiện tại hệ thống chủ yếu được triển khai và kiểm thử trong môi trường phát triển cục bộ (local development environment), chưa được đưa lên các nền tảng hạ tầng thực tế như public cloud hay production-grade server. Làm giảm hiệu quả trong việc thực hiện các bài kiểm thử tích hợp (integration testing) ở quy mô thực tế, cũng như hạn chế khả năng đánh giá toàn diện về hiệu năng (performance benchmarking) và khả năng mở rộng (scalability assessment) của hệ thống dưới tải thực.
+
+
++ Đơn giản hơn thì hệ thống hiện vẫn chỉ được chạy thử nghiệm trên máy tính cá nhân của nhóm phát triển (local environment) chứ chưa được đưa lên môi trường thật (như internet hay server thật). Điều này khiến cho việc kiểm tra độ ổn định, tốc độ xử lý khi có nhiều người dùng truy cập cùng lúc, hay việc lấy ý kiến từ người dùng bên ngoài trở nên khó khăn.
+
+
+- Do chưa có một môi trường triển khai công khai (internet-accessible environment), các bên liên quan (stakeholders) hiện vẫn chưa thể truy cập hệ thống để tương tác hoặc trải nghiệm trực tiếp. Điều này dẫn đến việc thu thập phản hồi từ người dùng thực (real-world feedback) còn hạn chế, gây khó khăn trong việc đánh giá mức độ ổn định (system stability) khi chạy trên hạ tầng mạng công cộng, đặc biệt là trong các kịch bản vận hành dài hạn. Để đảm bảo các yêu cầu về tính sẵn sàng (availability), độ tin cậy (reliability) và khả năng mở rộng theo chiều ngang (horizontal scalability), việc chuyển đổi hệ thống sang môi trường staging hoặc production sẽ được triển khai sớm.
+
+
++ Giải pháp sắp tới là sẽ đưa hệ thống lên môi trường "online" thử nghiệm để kiểm tra và điều chỉnh tốt hơn.
+
+### 2. Hạn chế về giao diện người dùng (GUI) và tích hợp với hệ thống lõi (core system)
+- **Phần giao diện người dùng (Graphical User Interface - GUI)** hiện vẫn đang trong giai đoạn phát triển và chưa đạt mức độ hoàn thiện cần thiết để tích hợp một cách ổn định với các thành phần lõi (core modules) của hệ thống. Điều này ảnh hưởng đáng kể đến trải nghiệm người dùng (user experience - UX), cũng như khả năng thực hiện các luồng tương tác liền mạch (seamless interaction flows) giữa frontend và business logic ở tầng backend.
+
+
+- **Việc GUI chưa được tích hợp đầy đủ với core** dẫn đến nguy cơ xảy ra các vấn đề về đồng bộ dữ liệu (data synchronization issues), quản lý trạng thái phức tạp (state management inconsistencies), và khó khăn trong việc thực hiện kiểm thử đầu-cuối (end-to-end testing). Ngoài ra, thiếu một kiến trúc tích hợp rõ ràng giữa frontend và backend cũng có thể ảnh hưởng đến maintainability và tốc độ phát triển tính năng mới trong tương lai.
+
+
++ Giao diện người dùng – phần người dùng trực tiếp thao tác – hiện vẫn chưa được hoàn thiện và chưa "ăn khớp" với các phần chức năng lõi bên trong hệ thống. Khi sử dụng có thể khiến thao tác gặp khó chịu, không mượt, hoặc dữ liệu xử lý chưa chính xác.
+
+
+- Để cải thiện độ ổn định (stability), tính nhất quán (consistency), cũng như đảm bảo khả năng mở rộng hệ thống về mặt kiến trúc, cần sớm hoàn thiện GUI và chuẩn hóa quy trình tích hợp với core theo các nguyên tắc của kiến trúc hướng dịch vụ (SOA – Service-Oriented Architecture) hoặc kiến trúc hướng thành phần (modular architecture), kết hợp với CI/CD pipeline để hỗ trợ việc triển khai và kiểm thử tự động.
+
+
++ **Mục tiêu sắp tới** là hoàn thiện phần giao diện và kết nối chặt chẽ với phần lõi để mọi thứ chạy trơn tru, ổn định hơn. 
+Lý do khách quan đang hạn chế về mặt thời gian nên phần tóm tắt cũng đưa ra các mặt hạn chế của hệ thống nhằm đảm bảo sự rõ ràng về hệ thống hơn. Xong cũng đưa ra các điểm yếu cần khắc phục thêm trong thời gian sắp tới.
+
