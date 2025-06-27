@@ -240,7 +240,7 @@ Chúng tôi hoan nghênh tất cả những ý kiến đóng góp bổ sung và 
 
 ## GIẤY PHÉP
 
-Dự án này được cấp phép theo Giấy phép MIT. Xem file LICENSE để biết chi tiết.
+Dự án này được cấp phép theo Giấy phép Apache-2.0. Xem chi tiết tại [LICENSE](./LICENSE).
 
 ## CHI TIẾT CÁC MODULE
 
